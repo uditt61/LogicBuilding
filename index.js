@@ -1,0 +1,164 @@
+// 
+
+// 2. Print numbers from 1 to n using recursion
+
+// function print(n){
+//     if(n<0) return 
+// console.log(n)
+// return print(n-1)
+
+// }
+// print(19)
+
+// 3. Print only even numbers from 1 to n using recursion
+
+// 4. Print sum of first n natural numbers recursively
+
+// function print(n){
+//     if(n==0) return 0;
+//     return n + print(n-1)
+// }
+// console.log(print(5))
+
+// // 5. Print fibonacci series upto n terms
+
+// function fibonacci(n){
+//     let firstNum = 0
+//     let secondNum = 1
+//     for(let i = 0;i<n;i++){
+//         let next = firstNum + secondNum
+//     firstNum = secondNum
+//     secondNum = next
+//     console.log(next)
+//     }   
+// }
+
+// fibonacci(10)
+
+// function sumOfDigit(n){
+// for(let i = 1;i<=n;i++){
+//     let num = i
+//     let temp = 0
+    
+// while(num>0){
+//     let lastdigit = num%10
+//      temp = temp + lastdigit
+//      num = Math.floor(num/10)
+// }
+// console.log(i,temp)
+// }
+// }
+// sumOfDigit(15)
+
+// function fibonaci(n){
+//     if(n<=1) return n
+//     return fibonaci(n-1) + fibonaci(n-2)
+// }
+// console.log(fibonaci(19))
+
+// function sumofdigit(n){
+//     if(n<1) return 0
+//     return (n%10) + sumofdigit(Math.floor(n/10))
+
+// }
+// console.log(sumofdigit(10123))
+
+// Count the number of digits in a number recursively
+// let count = 0
+// function countDigit(n){
+//     if (n<=1) return 0;
+
+//     return (count++) + countDigit(Math.floor(n/10))
+
+// }
+// console.log(countDigit(345))
+
+// function reverse(n,rev = 0){
+//     if(n<1) return rev;
+
+// let lastdigit = n%10;
+// rev = rev*10 + lastdigit 
+// return reverse(Math.floor(n/10),rev)
+    
+// }
+// console.log(reverse(321))
+
+
+// function prod(n){
+//     if(n<1) return 1;
+//     return (n%10)*prod(Math.floor(n/10))
+// }
+// console.log(prod(123))
+// function pritn(n){
+//     let words = ["zero","one","two","three","four","five","six","seven","eight","nine"]
+//     if (n<1) return;
+//     pritn(Math.floor(n/10))
+//     let lastdigit = n%10
+//     console.log(words[lastdigit])
+// }
+// pritn(124)
+
+// function printrow(n){
+// if(n==0) return;
+// process.stdout.write("*")
+// printrow(n-1)
+// }
+
+// function triangle(n){
+//     if(n==0) return ;
+//     triangle(n-1)
+//     printrow(n)
+//     console.log()
+    
+// }
+// triangle(10)
+
+// function printNumber(n){
+//     if(n==0) return;
+//     printNumber(n-1)
+//     for(let i = 1;i<=n;i++){
+//         process.stdout.write(i+"")
+//     }
+//     console.log()
+// }
+// printNumber(5)
+
+// function sum(n){
+//     if(n==0) return 0;
+//     let result = n + sum(n-1)
+//     console.log(result)
+//     return result
+// }
+// sum(5)
+// console.log("final sum : ",sum(5))
+
+// let input = Number(prompt("enter the n:"))
+// let arr = []
+// for(let i = 0;i<navigation;i++){
+//  arr[i]= Number(prompt("Enter number :"))
+// }
+// console.log(arr)
+
+// let arr = [4,4,3,3,3,4,3]
+// let sum = 0
+// for(let i = 0;i<arr.length;i++){
+// sum = sum + arr[i]
+// }
+// console.log(sum)
+
+// Count and print the number of even and odd numbers form the array
+// let arr = [4,6,7,,7,6,5,4,2]
+// let even = 0
+// let odd = 0
+// for(let i = 0;i<arr.length;i++){
+//     if(arr[i]%2==0){
+//         even++
+//     }
+//     else{
+//         odd++
+//     }
+// }
+// console.log("Even numbers are: ",even)
+// console.log("Odd numbers are: ",odd)
+
+
