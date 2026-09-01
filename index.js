@@ -198,16 +198,119 @@
 // console.log(firstOccurence(2))
 
 //Check if all the elements in the array is unique or not
-let arr = [2,29,21,5,3,51,31,23,52,32,324,20]
-function isUnique(){
-    for(let i = 0;i<arr.length;i++){
-        for(let j = i+1;j<arr.length;j++){
-            if(arr[i]===arr[j]) return false
-        }
-    }
-    return true
-}
-console.log(isUnique())
+// let arr = [2,29,21,5,3,51,31,23,52,32,324,20]
+// function isUnique(){
+//     for(let i = 0;i<arr.length;i++){
+//         for(let j = i+1;j<arr.length;j++){
+//             if(arr[i]===arr[j]) return false
+//         }
+//     }
+//     return true
+// }
+// console.log(isUnique())
+
+// let arr = [3,3,5,2,3,2,6,6]
+// let sum = 0
+// let sumOfEven = ()=>{
+//     for(let i = 0;i<arr.length;i++){
+//         if(arr[i]%2==0){
+//             sum = sum + arr[i]
+//         }
+//     }
+//     return sum
+// }
+// console.log(sumOfEven())
+
+// function isPrime(n){
+//     for(let i = 2;i<n;i++){
+//         if(n%i==0){
+//             return false
+//         }
+//     } 
+//     return true
+// }
+
+// function square(){
+//     let arr = [4,43,3,2,3,3,2,3,2,2]
+//     for(let i = 0;i<arr.length;i++){
+//         arr[i] = arr[i]*arr[i]
+//     }
+//     console.log(arr)
+// }
+// square()
+
+// let arr = [3,3,3,5,2,3,54,2,45,2,66]
+// let even = []
+// const fun = ()=>{
+//     for(let i =0;i<arr.length;i++){
+//         if(arr[i]%2==0){
+//             even.push(arr[i])
+//         }
+//     }
+//     console.log(even)
+// }
+// fun()
+// let arr = [10, 20, 30, 40, 50];
+// let start = 0
+// let temp = 0
+// let end = arr.length -1
+// console.log(arr)
+// while(start<end){
+//      temp=arr[start]
+//      arr[start]=arr[end]
+//      arr[end]=temp
+//      start++
+//      end--
+// }
+// console.log(arr)
+
+// Rotate array one position to the left
+// let arr = [10, 20, 30, 40, 50,60];
+// let temp = arr[0]
+// for(let i = 0;i<arr.length;i++){
+//     arr[i]=arr[i+1]
+// }
+// arr[arr.length-1]=temp
+// console.log(arr)
+
+// Rotate an array one postition to the right
+// let arr = [10, 20, 30, 40, 50,60];
+// let temp = arr[arr.length-1]
+// for(let i = arr.length-1;i>=0;i--){
+//  arr[i]=arr[i-1]
+// }
+// arr[0] = temp
+// console.log(arr)
+
+// let arr1 = [10,20,30,40,50]
+// let arr2 = [10,20,30,40,50]
+
+// let equal = true
+// function compareArray(){
+//     if(arr1.length!=arr2.length){
+//         return false
+//     }
+//     for(let i = 0;i<arr1.length;i++){
+//         if(arr1[i]!=arr2[i]){
+//             return false
+//         }
+//     }
+//     return true
+// }
+// console.log(compareArray())
+
+let arr1 = [10,20,30,40,50]
+let arr2 = [10,20,30,40,50]
+
+
+
+
+
+
+
+
+
+
 
 
 
