@@ -160,5 +160,19 @@
 // }
 // console.log("Even numbers are: ",even)
 // console.log("Odd numbers are: ",odd)
+// let arr = [2,21,3,4,5,43,4,91]
+// let max = arr[0]
+// let maxIndex = 0
+// function maxElemetIdnex(){
+// for(let i = 0;i<arr.length;i++){
+//     if(arr[i]>max){
+//         max = arr[i]
+//         maxIndex = i
+//     }
+// }
+// return maxIndex
+// }
+// console.log(maxElemetIdnex())
+
 
 
