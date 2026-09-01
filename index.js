@@ -174,5 +174,40 @@
 // }
 // console.log(maxElemetIdnex())
 
+// function search(n){
+// let arr = [3,3,32,23,5,23,23]
+// for(let i = 0;i<arr.length;i++){
+//     if(arr[i]==n){
+//         console.log("Element exists at "+ i + "index" )
+//     }
+//     else{
+//         console.log("Element does not exists")
+//     }
+// }
+// }
+// search(23)
+
+// function firstOccurence(n){
+//     let arr = [43,4,3,3,3,2,3,32,32,2,3,2,5,6,7]
+//     for(let i = 0;i<arr.length;i++){
+//         if(arr[i]==n){
+//             return i
+//         }
+//     }
+// }
+// console.log(firstOccurence(2))
+
+//Check if all the elements in the array is unique or not
+let arr = [2,29,21,5,3,51,31,23,52,32,324,20]
+function isUnique(){
+    for(let i = 0;i<arr.length;i++){
+        for(let j = i+1;j<arr.length;j++){
+            if(arr[i]===arr[j]) return false
+        }
+    }
+    return true
+}
+console.log(isUnique())
+
 
 
