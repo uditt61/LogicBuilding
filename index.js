@@ -299,8 +299,43 @@
 // }
 // console.log(compareArray())
 
-let arr1 = [10,20,30,40,50]
-let arr2 = [10,20,30,40,50]
+//Comapre two arrays - check if they contain the same elements (ignore order)
+
+// let arr1 = [10,20,30,40,50]
+// let arr2 = [10,20,20,40,50]
+
+// let used = []
+
+// function check(){
+
+//     for(let i = 0;i<arr1.length;i++)
+//     {
+//         used[i]= false
+//     }
+
+//     if(arr1.length!==arr2.length){
+//         return false
+//     }
+//     for(let i = 0;i<arr1.length;i++){
+//         let found = false
+//         for(let j = 0;j<arr2.length;j++){
+//             if(arr1[i]===arr2[j]){
+//                 found = true
+//                 break;
+//             }
+//         }
+//         if(found===false){
+//             return false
+//         }
+        
+        
+//     }
+//     return true
+    
+    
+// }
+
+// console.log(check())
 
 
 
