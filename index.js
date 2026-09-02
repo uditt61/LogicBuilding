@@ -337,6 +337,22 @@
 
 // console.log(check())
 
+// let arr1 = [1,2,3]
+// let arr2 = [4,5,6]
+// let arr3 = []
+
+// let merge = function(){
+//     for(let i = 0;i<arr1.length;i++){
+//         arr3[i] = arr1[i]
+//     }
+//     for(let i =0;i<arr2.length;i++){
+//         arr3[arr1.length + i] = arr2[i]
+//     }
+//     return arr3
+// }
+// console.log(merge())
+
+
 
 
 
