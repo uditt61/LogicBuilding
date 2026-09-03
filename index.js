@@ -396,7 +396,7 @@
 // Create a frequency array
 
 let arr = [1,1,1,15,6,6,6,8]
-let freq = []
+let freqs= []
 
 for(let i = 0;i<arr.length;i++){
     let value = arr[i]
