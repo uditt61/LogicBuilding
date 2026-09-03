@@ -371,30 +371,45 @@
 // }
 // console.log(fcommon())
 
-let arr1 = [1,2,4,5]
-let arr2 = [3,4,5]
-let notcommon = []
-let k = 0
-let fnotcommon = ()=>{
-    for(let i = 0;i<arr1.length;i++){
-        let found = false
-        for(let j = 0;j<arr2.length;j++){
-            if(arr1[i]===arr2[j]){
-                found = true
-                break
-            }
-        }
-        if(!found){
-            notcommon[k] = arr1[i]
-            k++
-        }
+// let arr1 = [1,2,4,5]
+// let arr2 = [3,4,5]
+// let notcommon = []
+// let k = 0
+// let fnotcommon = ()=>{
+//     for(let i = 0;i<arr1.length;i++){
+//         let found = false
+//         for(let j = 0;j<arr2.length;j++){
+//             if(arr1[i]===arr2[j]){
+//                 found = true
+//                 break
+//             }
+//         }
+//         if(!found){
+//             notcommon[k] = arr1[i]
+//             k++
+//         }
+//     }
+//     return notcommon
+// }
+// console.log(fnotcommon())
+
+// Create a frequency array
+
+let arr = [1,1,1,15,6,6,6,8]
+let freq = []
+
+for(let i = 0;i<arr.length;i++){
+    let value = arr[i]
+    if(freq[value]===undefined){
+        freq[value] = 1
     }
-    return notcommon
+    else{
+        freq[value]++
+    }
+    for(let i = 0;i<freq.length;i++){
+        
+    }
 }
-console.log(fnotcommon())
-
-
-
 
 
 
