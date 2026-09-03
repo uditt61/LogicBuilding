@@ -410,6 +410,17 @@ for(let i = 0;i<arr.length;i++){
         
     }
 }
+// Print first and last character of the string
+// let str = "hello";
+
+// console.log("First:", str[0]);
+// console.log("Last:", str[str.length - 1]);
+// Convert all characters to uppercase
+// let str = "hello world";
+
+// console.log(str.toUpperCase());
+
+
 
 
 
