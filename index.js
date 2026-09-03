@@ -371,27 +371,33 @@
 // }
 // console.log(fcommon())
 
-let arr1 = [1,2,4,5]
-let arr2 = [3,4,5]
-let notcommon = []
-let k = 0
-let fnotcommon = ()=>{
-    for(let i = 0;i<arr1.length;i++){
-        let found = false
-        for(let j = 0;j<arr2.length;j++){
-            if(arr1[i]===arr2[j]){
-                found = true
-                break
-            }
-        }
-        if(!found){
-            notcommon[k] = arr1[i]
-            k++
-        }
-    }
-    return notcommon
-}
-console.log(fnotcommon())
+// let arr1 = [1,2,4,5]
+// let arr2 = [3,4,5]
+// let notcommon = []
+// let k = 0
+// let fnotcommon = ()=>{
+//     for(let i = 0;i<arr1.length;i++){
+//         let found = false
+//         for(let j = 0;j<arr2.length;j++){
+//             if(arr1[i]===arr2[j]){
+//                 found = true
+//                 break
+//             }
+//         }
+//         if(!found){
+//             notcommon[k] = arr1[i]
+//             k++
+//         }
+//     }
+//     return notcommon
+// }
+// console.log(fnotcommon())
+
+// Print first and last character of the string
+// let str = "hello";
+
+// console.log("First:", str[0]);
+// console.log("Last:", str[str.length - 1]);
 
 
 
