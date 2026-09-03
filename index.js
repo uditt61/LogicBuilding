@@ -398,7 +398,10 @@
 
 // console.log("First:", str[0]);
 // console.log("Last:", str[str.length - 1]);
+// Convert all characters to uppercase
+// let str = "hello world";
 
+// console.log(str.toUpperCase());
 
 
 
